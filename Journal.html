@@ -2,9 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>JournalForm</title>
 </head>
-<body>
 
+<body>
+<h1>Journal</h1>
+<div class="container">
+    <form action="">
+        <label for="navn">Navn og Efternavn</label><br>
+        <input type="text" id="navn" name="navn" placeholder="Navn og efternavn" required><br>
+
+        <label for="cpr">CPR</label><br>
+        <input type="text" id="cpr" name="cpr" placeholder="CPR" required><br>
+
+        <label for="alder">Alder og k&#248n </label><br>
+        <input type="text" id="alder" name="alder" placeholder="Alder og k&#248n " required><br>
+
+        <label for="Test_DatetimeLocal">Dato og tidspunkt (Mellem 8:30-16:30) </label><br>
+        <input  type="datetime-local" id="Test_DatetimeLocal" name="dateTime" required
+                min="2021-09-10T08:30" max="2022-09-10T16:30">
+        <br>
+
+        <label for="textarea">Notat<br>
+            <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br>
+        </label>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
 </body>
 </html>
