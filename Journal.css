@@ -1,6 +1,10 @@
 body {
-    background: white;
-    font-family: "Times New Roman", serif;
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 h1 {
@@ -14,7 +18,6 @@ h1 {
 .container {
     margin: auto;
     width: 385px;
-    border: 5px solid black;
     padding: 10px;
 }
 
@@ -32,12 +35,40 @@ span {
     display: block;
 }
 
+input {
+    background-color: #eee;
+    padding: 12px;
+    margin: 8px 0;
+    width: 95%;
+    border: 1px solid;
+}
 
+select{
+    background-color: #eee;
+    padding: 12px;
+    margin: 8px 0;
+    width: 102%;
+    border: 1px solid;
+}
 
+textarea{
+    background-color: #eee;
+    padding: 12px;
+    margin: 8px 0;
+    width: 95%;
+    border: 1px solid;
+}
 
 .button {
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     height: 30px;
-    width: 190px
+    width: 49%
 
 }
 
