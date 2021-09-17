@@ -1,9 +1,23 @@
+
+/*  forklarende kommenter, værdigfuld indsigt */
+
 body{
-    background: white;
-    color: Black;
-    text-align: center;
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
-input{
-    border-radius: 20px;
-    height: 20px;
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+form2{
+    width: 15%;
 }
