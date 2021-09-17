@@ -18,9 +18,12 @@
         <label for="alder">Alder og k&#248n </label><br>
         <input type="text" id="alder" name="alder" placeholder="Alder og k&#248n " required><br>
 
-        <label for="Test_DatetimeLocal">Dato og tidspunkt (Mellem 8:30-16:30) </label><br>
-        <input  type="datetime-local" id="Test_DatetimeLocal" name="dateTime" required
-                min="2021-09-10T08:30" max="2022-09-10T16:30">
+        <label for="date">Dato: </label><br>
+        <input type="date" id="date" name="date" min="2021-01-01" max="2022-12-31" required>
+        <label for="time">Tidspunkt:</label>
+        <input type="time" id="time" name="time"  min="08:30" max="16:30" step="1800" required>
+        <label> (08:30-16:30)</label>
+
         <br>
 
         <label for="textarea">Notat<br>
