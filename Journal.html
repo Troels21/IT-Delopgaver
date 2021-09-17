@@ -10,34 +10,42 @@
 <h1>Journal</h1>
 <div class="container">
     <form action="StartSide.html">
-        <label for="navn">Navn og Efternavn</label><br>
-        <input type="text" id="navn" name="navn" placeholder="Navn og efternavn" required class="box"><br>
+        <span>
+            <label for="navn">Navn og Efternavn</label></span>
 
-        <label for="cpr">CPR</label><br>
-        <input type="text" id="cpr" name="cpr" placeholder="CPR" required class="box"><br>
+        <span>
+            <input type="text" id="navn" name="navn" placeholder="Navn og efternavn" required class="box"></span>
 
-        <label for="alder">Alder</label> <b>&</b><label for="koen">k&#248n</label><br>
-        <input type="text" id="alder" name="alder" placeholder="Alder " required class="box">
-        <select name="koen" id="koen" class="dropdown">
-            <option value="" disabled selected>k&#248n</option>
-            <option value="M">Mand</option>
-            <option value="D">Kvinde</option>
-            <option value="A">Andet</option>
-        </select><br>
+        <span>
+            <label for="cpr">CPR</label></span>
 
-        <label for="date">Dato</label> <b>&</b> <label for="time">Tidspunkt</label><br>
+        <span>
+            <input type="text" id="cpr" name="cpr" placeholder="CPR" required class="box"></span>
+
+        <span>
+            <label for="alder">Alder</label> <b>&</b><label for="koen">k&#248n</label></span>
+        <span>
+            <input type="text" id="alder" name="alder" placeholder="Alder " required class="box">
+            <select name="koen" id="koen" class="dropdown">
+                <option value="" disabled selected>k&#248n</option>
+                <option value="M">Mand</option>
+                <option value="D">Kvinde</option>
+                <option value="A">Andet</option>
+        </select></span>
+
+        <span>
+            <label for="date">Dato</label> <b>&</b> <label for="time">Tidspunkt</label></span>
+
         <input type="date" id="date" name="date" min="2021-01-01" max="2022-12-31" required>
         <input type="time" id="time" name="time" min="08:30" max="16:30" step="1800" required>
         <label id="tidmellem"> (08:30-16:30)</label>
 
-        <br>
+        <span>
+            <label for="textarea">Notat   </label></span>
+        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br>
 
-        <label for="textarea">Notat<br>
-            <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br>
-        </label>
-
-        <input type="submit" value="Submit" class="button">
         <input type="reset" value="Reset" class="button">
+        <input type="submit" value="Submit" class="button">
 
     </form>
 </div>
