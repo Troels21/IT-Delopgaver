@@ -13,11 +13,19 @@ body{
 
 input {
     background-color: #eee;
-    border: none;
-    padding: 12px 15px;
+    padding: 12px;
     margin: 8px 0;
     width: 100%;
+    border: 1px solid;
 }
-form2{
-    width: 15%;
+
+button {
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
