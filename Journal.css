@@ -1,6 +1,22 @@
 body{
     background: white;
     color: black;
-    text-align: center;
     font-family: "Times New Roman", serif ;
 }
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#tidmellem{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.button{
+height:30px;
+width:190px
+
+}
+

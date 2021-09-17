@@ -11,20 +11,24 @@
 <div class="container">
     <form action="StartSide.html">
         <label for="navn">Navn og Efternavn</label><br>
-        <input type="text" id="navn" name="navn" placeholder="Navn og efternavn" required><br>
+        <input type="text" id="navn" name="navn" placeholder="Navn og efternavn" required class="box"><br>
 
         <label for="cpr">CPR</label><br>
-        <input type="text" id="cpr" name="cpr" placeholder="CPR" required><br>
+        <input type="text" id="cpr" name="cpr" placeholder="CPR" required class="box"><br>
 
-        <label for="alder">Alder og k&#248n </label><br>
-        <input type="text" id="alder" name="alder" placeholder="Alder og k&#248n " required><br>
-        <p></p>
+        <label for="alder">Alder</label> <b>&</b><label for="koen">k&#248n</label><br>
+        <input type="text" id="alder" name="alder" placeholder="Alder " required class="box">
+        <select name="koen" id="koen" class="dropdown">
+            <option value="" disabled selected>k&#248n</option>
+            <option value="M">Mand</option>
+            <option value="D">Kvinde</option>
+            <option value="A">Andet</option>
+        </select><br>
 
-        <label for="date">Dato: </label>
+        <label for="date">Dato</label> <b>&</b> <label for="time">Tidspunkt</label><br>
         <input type="date" id="date" name="date" min="2021-01-01" max="2022-12-31" required>
-        <label for="time">Tidspunkt:</label>
-        <input type="time" id="time" name="time"  min="08:30" max="16:30" step="1800" required>
-        <label> (08:30-16:30)</label>
+        <input type="time" id="time" name="time" min="08:30" max="16:30" step="1800" required>
+        <label id="tidmellem"> (08:30-16:30)</label>
 
         <br>
 
@@ -32,7 +36,8 @@
             <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br>
         </label>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="button">
+        <input type="reset" value="Reset" class="button">
 
     </form>
 </div>
