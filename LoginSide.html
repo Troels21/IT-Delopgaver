@@ -7,20 +7,23 @@
 </head>
 
 <body>
-<h1>
-    Gruppe 4
-</h1>
 
-<p></p>
-<form action="StartSide.html">
-    <label for="cpr">CPR nummer:</label>
-    <input type="text" id="cpr" name="cpr" placeholder=" Intast cpr her" required><br><br>
-    <label for="kode">Kodeord:</label>
-    <input type="password" id="kode" name="kode" placeholder=" Intast kodeord her" required><br><br>
-
-    <button type="submit" value="Login">Login</button>
-    <button type="reset" value="Reset">Reset</button>
-</form>
+<div class="loginBoks">
+    <form action="StartSide.html" class="form">
+        <h1>Login</h1>
+        <div class="input-gruppe">
+            <input type="text" name="cpr" id="cpr" required>
+            <label for="cpr">CPR</label>
+        </div>
+        <div class="input-gruppe">
+            <input type="password" name="kode" id="kode" required>
+            <label for="kode">Kodeord</label>
+        </div>
+        <button type="reset" value="Reset" class="knap"> Reset </button>
+        <input type="submit" value="Login" class="knap"> <br> <br>
+        <button type="submit" value="Admin" class="admin-knap">Admin</button>
+    </form>
+</div>
 
 </body>
 </html>
