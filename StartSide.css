@@ -11,14 +11,18 @@ body{
     position: relative;
     top: 5px;
     left: 1000px;
-    max-height: 40px;
-    max-width: 800px;
+    height: 40px;
+    width: 200px;
     border: 1px solid;
 }
 .hotbar button{
     position: fixed;
     display: inline-block;
-
+}
+.hotbar a{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
 }
 
 /*DETTE ER FOR MELLEMSTED*/
