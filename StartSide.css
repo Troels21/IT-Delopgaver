@@ -8,12 +8,13 @@ body{
 /*DETTE ER FOR HOTBAR*/
 
 .hotbar{
-    position: relative;
-    top: 5px;
-    left: 1000px;
+    position: absolute;
+    top:5px;
+    right:5px;
     height: auto;
     width: 150px;
-
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     background-color: darkblue;
 }
 .hotbar button{
@@ -25,18 +26,9 @@ body{
     color: white;
     text-align: center;
     border: 5px;
-    border-color: white;
     padding: 5px;
 }
-.hotbar a::after{
-    content: "";
-    position: absolute;
-    left: 46%;
-    width: 5px;
-    height: 24px;
-    background: black;
 
-}
 
 /*DETTE ER FOR MELLEMSTED*/
 
