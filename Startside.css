@@ -121,10 +121,12 @@ GAMMEL SKEMA SLUT */
 .tider {
     position:relative;
     display:grid;
+    grid-template-columns: 10% repeat(5,1fr);
     grid-template-rows:repeat(16,1fr);
+    grid-gap: 2px;
     overflow: auto;
     left:100px;
-    max-width: 100px;
+    max-width: 1000px;
     max-height: 500px;
     padding:1em;
 }
@@ -132,6 +134,7 @@ GAMMEL SKEMA SLUT */
     padding: 1em;
     background-color: slategrey;
 }
+
 
 
 
