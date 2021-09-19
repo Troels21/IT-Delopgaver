@@ -107,7 +107,7 @@ body{
 /* DETTE ER FOR MINIJOURNAL */
 
 .miniJournal{
-    position:fixed;
+    position:relative;
     top: 100px;
     left: 1600px;
 }
