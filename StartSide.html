@@ -7,35 +7,39 @@
 </head>
 <body>
 
-<!--DETTE ER FOR HOTBAR-->
 
-<div class="hotbar">
-    <!--
-    <form method="get" action="LoginSide.html">
-        <button type="submit">Log ud</button>
-    </form>
-    <button type="button">Import</button>
-    -->
-    <a href="LoginSide.html">LOG UD</a>
-    <a href="file:///c:\">IMPORT</a>
+<!--DETTE ER TOPBAR (https://www.arclab.com/en/kb/htmlcss/display-date-time-javascript-php-ssi.html) -->
+<div class="topbar">
+<p>Kl:    <span id="datetime"></span></p>
+<script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleTimeString(); <!--DETTE ER IKKE MIN EGEN !OBS-->
+</script>
 
 </div>
 
+<!--DETTE ER FOR HOTBAR-->
+
+<div class="hotbar">
+    <a href="LoginSide.html">LOG UD</a>
+    <a href="file:///c:\">IMPORT</a>
+</div>
+
+<!--DETTE ER FOR BRUGERNAVN-->
+<div class="bruger">
+    <p><b>BRUGERNAVN</b></p>
+</div>
 <!--DETTE ER FOR MELLEMSTED-->
 
 <div class="mellemsted">
-    <form method="get" action="StartSide.html">
-        <button type="submit" id="refresh">Refresh</button>
-    </form>
-    <form method="get" action="Journal.html">
-        <button type="submit" id="add">Add</button>
-    </form>
+    <div><a href="StartSide.html">Refresh</a></div>
+    <div><a href="Journal.html">Tilføj ny patient</a></div>
 </div>
 
 <!--DETTE ER FOR SKEMA-->
 
 
-<div class="Skema" id="skema"> <!-- Dette er et skema ting -->
+<div class="Skema" id="skema" > <!-- Dette er et skema ting -->
 <!--
     <div class="dage">
         <ul class="ugedage">
