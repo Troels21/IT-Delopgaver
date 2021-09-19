@@ -1,33 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-    table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    }
-    </style>
     <meta charset="UTF-8">
-    <title>Startside</title>
-    <link rel="stylesheet" type="text/css" href=Startside.css">
+    <title>Start side</title>
+    <link rel="stylesheet" type="text/css" href="StartSide.css">
 </head>
 <body>
 
-<h2>Startside</h2>
-<a href=Journal.html>Opret ny journal</a>
-<table style="width:100%">
-    <tr>
-        <th>Tidspunkt</th>
-        <th>Navn</th>
-        <th>Køn</th>
-        <th>Notat</th>
-    </tr>
+<div class="hotbar">
+    <form method="get" action="LoginSide.html">
+        <button type="submit">Log ud</button>
+    </form>
 
-</table>
+    <button type="button">Import</button>
+
+</div>
+<div class="mellemsted">
+    <form method="get" action="StartSide.html">
+        <button type="submit">Refresh</button>
+    </form>
+    <form method="get" action="Journal.html">
+        <button type="submit">Add</button>
+    </form>
+</div>
+
+<div class="Skema" id="skema">
 
 
+    <div class="dage">
+        <ul class="ugedage">
+            <li>Mandag</li>
+            <li>Tirsdag</li>
+            <li>Onsdag</li>
+            <li>Torsdag</li>
+            <li>Fredag</li>
+            <li>Lørdag</li>
+            <li>Søndag</li>
+        </ul>
+    </div>
+    <div class="tider">
+        <ul>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+        </ul>
+    </div>
+</div>
 
-<a href=LoginSide.html>Log ud</a>
+<div class="miniJournal">
+    <img src="personapp.jpg">
+    <textarea id="miniinfo">Information:</textarea>
+</div>
 
 
 </body>
