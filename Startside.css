@@ -8,25 +8,27 @@ body{
 /*DETTE ER FOR HOTBAR*/
 
 .hotbar{
-    position: relative;
-    top: 5px;
-    left: 1000px;
-    height: 40px;
-    width: 200px;
-    border: 1px solid;
-white-space: nowrap;
+    position: absolute;
+    top:5px;
+    right:5px;
+    height: auto;
+    width: 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: darkblue;
 }
 .hotbar button{
     position: fixed;
     display: inline-block;
 }
-.hotbar a{
+.hotbar a {
     display: inline-block;
-background-color: black;
-color:black;
+    color: white;
     text-align: center;
+    border: 5px;
     padding: 5px;
 }
+
 
 /*DETTE ER FOR MELLEMSTED*/
 
@@ -80,7 +82,7 @@ color:black;
     width: 1px;
     height: 100%;
     background: black;
-    ;
+
 }
 .tider{
     background: darkgrey;
