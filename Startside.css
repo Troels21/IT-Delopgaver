@@ -1,8 +1,8 @@
 
 
 body{
-
-    background-color:white;
+    backround: url('dna-3539309_1920 - Copy.jpg') no-repeat center;
+    background-size: cover;
     font-family: "Times New Roman";
 }
 
@@ -10,7 +10,6 @@ body{
 /*DETTE ER TOPBAR*/
 .topbar p{
     text-weight:bold;
-
 }
 
 /*DETTE ER FOR HOTBAR*/
@@ -163,13 +162,13 @@ GAMMEL SKEMA SLUT */
 /* DETTE ER FOR MINIJOURNAL */
 
 .miniJournal{
-    position:relative;
+    position:absolute;
     top: 100px;
-    left: 1600px;
+    left: 1100px;
 }
 .miniJournal textarea{
-    min-height: 400px;
-    min-width: 300px;
+    min-height: 600px;
+    min-width: 600px;
 }
 .miniJournal img{
     max-height:80px;
