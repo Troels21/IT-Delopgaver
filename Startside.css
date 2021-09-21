@@ -22,7 +22,7 @@ body{
     width: 150px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: slategrey;
+    background-color: dodgerblue;
 }
 .hotbar a {
     display: inline-block;
@@ -53,7 +53,7 @@ body{
     left:820px;
 }
 .mellemsted div{
-    background-color: slategrey;
+    background-color: dodgerblue;
     text-align: center;
     padding:5px;
 }
@@ -137,7 +137,7 @@ GAMMEL SKEMA SLUT */
 }
 .Skema div{
     padding: 1em;
-    background: slategrey;
+    background: dodgerblue;
 }
 .tider {
     position:relative;
@@ -153,7 +153,7 @@ GAMMEL SKEMA SLUT */
 }
 .tider div{
     padding: 1em;
-    background-color: slategrey;
+    background-color: dodgerblue;
 }
 
 
