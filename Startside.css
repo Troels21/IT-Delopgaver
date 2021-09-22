@@ -1,15 +1,15 @@
 
 
 body{
-    backround: url('dna-3539309_1920 - Copy.jpg') no-repeat center;
-    background-size: cover;
+    backround:red;  /*url('dna-3539309_1920-Copy.jpg') no-repeat center;*/
     font-family: "Times New Roman";
 }
 
 
 /*DETTE ER TOPBAR*/
 .topbar p{
-    text-weight:bold;
+    font-size: 30px;
+    font-weight:bold;
 }
 
 /*DETTE ER FOR HOTBAR*/
@@ -19,22 +19,27 @@ body{
     top:5px;
     right:5px;
     height: auto;
-    width: 150px;
+    width: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: slategrey;
+    grid-gap: 3px;
+
+
 }
 .hotbar a {
+    background-color: cadetblue;
     display: inline-block;
     color: black;
     font-weight: bold;
     text-align: center;
     border: 5px;
     padding: 5px;
+    border-radius: 3px;
 }
 
 /*DETTE ER FOR BRUGERNAVN*/
 .bruger{
+    font-size: 30px;
     position: relative;
     top:50px;
     left:20px;
@@ -50,12 +55,14 @@ body{
     grid-gap: 2px;
     width:200px;
     height: 30px;
-    left:820px;
+    left:88%;
 }
 .mellemsted div{
-    background-color: slategrey;
+    font-weight: bold;
+    background-color: cadetblue;
     text-align: center;
     padding:5px;
+    border-radius: 3px;
 }
 .mellemsted div a{
     display: inline-block;
@@ -132,30 +139,36 @@ GAMMEL SKEMA SLUT */
     grid-template-columns: 10% repeat(5,1fr);
     overflow: auto;
     left:10px;
-    max-width: 1000px;
+    max-width: 100%;
     padding: 1em;
 }
 .Skema div{
+    font-weight: bold;
     padding: 1em;
-    background: slategrey;
+    background: cadetblue;
+    border-radius: 3px;
 }
 .tider {
     position:relative;
     display:grid;
     grid-template-columns: 10% repeat(5,1fr);
-    grid-template-rows:repeat(16,1fr);
+    grid-template-rows:auto /*repeat(16,1fr)*/;
     grid-gap: 2px;
     overflow: auto;
     left:10px;
-    max-width: 1000px;
-    max-height: 500px;
+    max-width: 100%;
+    max-height: 600px;
     padding:1em;
 }
 .tider div{
+    font-weight: bold;
     padding: 1em;
     background-color: slategrey;
+    border-radius: 3px;
 }
-
+.tider div:nth-child(6n-5) {
+    background-color: cadetblue;
+}
 
 
 
