@@ -3,13 +3,14 @@
 body{
 
     font-family: "Times New Roman";
-    background-color:whitesmoke;
+    background: url("white-abstract.jpg");
+    background-size: cover;
 }
 
 
 /*DETTE ER TOPBAR*/
 .topbar p{
-    font-size: 30px;
+    font-size: 25px;
     font-weight:bold;
 }
 
@@ -23,7 +24,7 @@ body{
     width: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 3px;
+    grid-gap: 10px;
 
 
 }
@@ -53,7 +54,7 @@ body{
     position: relative;
     display: grid;
     grid-template-columns: 30% 70%;
-    grid-gap: 2px;
+    grid-gap: 10px;
     width:200px;
     height: 30px;
     left:80%;
@@ -102,7 +103,7 @@ body{
 .tider div{
     font-weight: bold;
     padding: 1em;
-    background-color: slategrey;
+    background-color: darkgrey;
     border-radius: 3px;
 }
 .tider div:nth-child(6n-5) {
