@@ -30,7 +30,7 @@ body{
 
 }
 .hotbar a {
-    background-color: dodgerblue /*rgb(162,221,240)*/;
+    background-color: mediumblue /*rgb(162,221,240)*/;
     display: inline-block;
     color:white;
     font-weight: bold;
@@ -62,7 +62,7 @@ body{
 }
 .mellemsted div{
     font-weight: bold;
-    background-color: dodgerblue /*rgb(162,221,240)*/;
+    background-color: mediumblue /*rgb(162,221,240)*/;
     text-align: center;
     padding:5px;
     border-radius: 3px;
@@ -87,7 +87,7 @@ body{
     font-weight: bold;
     color: white;
     padding: 1em;
-    background: dodgerblue /*rgb(162,221,240)*/;
+    background: mediumblue /*rgb(162,221,240)*/;
     border-radius: 3px;
 }
 .tider {
@@ -110,7 +110,7 @@ body{
     border-radius: 3px;
 }
 .tider div:nth-child(6n-5) {
-    background-color: dodgerblue /*rgb(162,221,240)*/;
+    background-color: mediumblue /*rgb(162,221,240)*/;
     opacity: 100;
 }
 
