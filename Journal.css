@@ -1,5 +1,6 @@
 body {
-    background: #f6f5f7;
+    background: url("white-abstract.jpg");
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
