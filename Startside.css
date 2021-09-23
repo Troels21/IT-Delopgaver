@@ -3,6 +3,7 @@
 body{
 
     font-family: "Times New Roman";
+    background-color:whitesmoke;
 }
 
 
@@ -27,7 +28,7 @@ body{
 
 }
 .hotbar a {
-    background-color: cadetblue;
+    background-color: rgb(25,193,255);
     display: inline-block;
     color: black;
     font-weight: bold;
@@ -59,7 +60,7 @@ body{
 }
 .mellemsted div{
     font-weight: bold;
-    background-color: cadetblue;
+    background-color: rgb(25,193,255);
     text-align: center;
     padding:5px;
     border-radius: 3px;
@@ -83,7 +84,7 @@ body{
 .Skema div{
     font-weight: bold;
     padding: 1em;
-    background: cadetblue;
+    background: rgb(25,193,255);;
     border-radius: 3px;
 }
 .tider {
@@ -105,7 +106,7 @@ body{
     border-radius: 3px;
 }
 .tider div:nth-child(6n-5) {
-    background-color: cadetblue;
+    background-color: rgb(25,193,255);
 }
 
 
