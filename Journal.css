@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Times New Roman';
 
 }
 
@@ -61,9 +61,9 @@ textarea{
 }
 
 .button {
-    border: 1px solid dodgerblue;
-    background-color: dodgerblue;
-    color: black;
+    border: 1px solid rgb(11,71,144);
+    background-color: rgb(11,71,144);
+    color: white;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
