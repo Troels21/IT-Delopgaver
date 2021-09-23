@@ -12,6 +12,7 @@ body{
 .topbar p{
     font-size: 25px;
     font-weight:bold;
+    color: black;
 }
 
 /*DETTE ER FOR HOTBAR*/
@@ -31,7 +32,7 @@ body{
 .hotbar a {
     background-color: dodgerblue /*rgb(162,221,240)*/;
     display: inline-block;
-    color: black;
+    color:white;
     font-weight: bold;
     text-align: center;
     border: 5px;
@@ -68,7 +69,7 @@ body{
 }
 .mellemsted div a{
     display: inline-block;
-    color: black;
+    color: white;
 }
 
 /*DETTE ER FOR SKEMA*/
@@ -84,6 +85,7 @@ body{
 }
 .Skema div{
     font-weight: bold;
+    color: white;
     padding: 1em;
     background: dodgerblue /*rgb(162,221,240)*/;
     border-radius: 3px;
@@ -102,6 +104,7 @@ body{
 }
 .tider div{
     font-weight: bold;
+    color: white;
     padding: 1em;
     background-color: darkgrey;
     border-radius: 3px;
